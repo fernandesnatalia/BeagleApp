@@ -9,7 +9,6 @@ import br.com.zup.beagle.android.view.ServerDrivenActivity
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        startActivity(newServerDrivenIntent<ServerDrivenActivity>(RequestData("/ae9416ea-33be-4aef-ac23-56de3ccd97ce")))
+        startActivity(newServerDrivenIntent<ServerDrivenActivity>(RequestData("/397b1eee-04f2-4103-a0ba-d02c77e5b1bd")))
     }
 }
